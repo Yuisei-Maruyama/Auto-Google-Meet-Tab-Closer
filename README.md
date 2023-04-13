@@ -27,3 +27,5 @@ npm run build
 3. Go to chrome://extensions/
 
 4. Click on the "Load unpackaged extensions" button and add the dist directory.
+
+<img src="https://github.com/Yuisei-Maruyama/Auto-Google-Meet-Tab-Closer/blob/master/usage.gif?raw=true" width="85%">
