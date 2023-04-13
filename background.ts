@@ -67,10 +67,7 @@ chrome.webNavigation.onHistoryStateUpdated.addListener(
     })
   },
   {
-    url: [
-      { urlMatches: 'https://meet.google.com/*' },
-      { urlMatches: 'https://*.zoomgov.com/*' },
-    ],
+    url: [{ urlMatches: 'https://meet.google.com/*' }],
   }
 )
 
