@@ -1,4 +1,4 @@
-# Autom Google Meet Window Closer
+# Auto Google Meet Window Closer
 
 ## Usage
 
