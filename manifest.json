@@ -4,7 +4,7 @@
   "version": "1.0",
   "description": "Google Chrome Extension that automatically closes window tabs when you leave a meeting.",
   "host_permissions": ["https://meet.google.com/*"],
-  "permissions": ["tabs", "webNavigation", "scripting"],
+  "permissions": ["webNavigation", "scripting"],
   "action": {
     "default_locale": "ja_JP",
     "default_icon": {
