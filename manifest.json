@@ -1,6 +1,6 @@
 {
   "manifest_version": 3,
-  "name": "Autom Google Meet Window Closer",
+  "name": "Auto Google Meet Window Closer",
   "version": "1.0",
   "description": "Google Chrome Extension that automatically closes window tabs when you leave a meeting.",
   "host_permissions": ["https://meet.google.com/*"],
@@ -12,7 +12,7 @@
       "48": "icon48.png",
       "128": "icon128.png"
     },
-    "default_title": "Autom Google Meet Window Closer"
+    "default_title": "Auto Google Meet Window Closer"
   },
   "background": {
     "service_worker": "background.js"
