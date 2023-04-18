@@ -24,7 +24,7 @@ npm run build
 ・・・
 ```
 
-3. Go to chrome://extensions/
+3. Go to [chrome://extensions/](chrome://extensions/)
 
 4. Click on the "Load unpackaged extensions" button and add the dist directory.
 
