@@ -1,6 +1,8 @@
 # Auto Google Meet Window Closer
 
-## Usage
+Google Chrome Extension that automatically closes window tabs when you leave a meeting.
+
+## Installation
 
 1. Execute the following commands.
 
@@ -27,5 +29,7 @@ npm run build
 3. Go to [chrome://extensions/](chrome://extensions/)
 
 4. Click on the "Load unpackaged extensions" button and add the dist directory.
+
+## Usage
 
 <img src="https://github.com/Yuisei-Maruyama/Auto-Google-Meet-Tab-Closer/blob/master/usage.gif?raw=true" width="85%">
