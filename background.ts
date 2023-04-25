@@ -6,37 +6,6 @@ interface Message {
   closeTab: boolean
 }
 
-function checkTargetText(addedNode: Node, targetText: string): boolean {
-  const textContent = addedNode.textContent || ''
-  return textContent.includes(targetText)
-}
-
-function processMutation(
-  mutation: MutationRecord,
-  targetText: string
-): boolean {
-  return Array.from(mutation.addedNodes).some((addedNode: Node) => {
-    const isTargetTextFound = checkTargetText(addedNode, targetText)
-    if (isTargetTextFound) {
-      chrome.runtime.sendMessage({ closeTab: true })
-    }
-    return isTargetTextFound
-  })
-}
-
-function processMutations(
-  mutations: MutationRecord[],
-  targetText: string,
-  observer: MutationObserver
-): void {
-  const found = mutations.some((mutation) =>
-    processMutation(mutation, targetText)
-  )
-  if (found) {
-    observer.disconnect()
-  }
-}
-
 chrome.webNavigation.onHistoryStateUpdated.addListener(
   (details: chrome.webNavigation.WebNavigationTransitionCallbackDetails) => {
     chrome.scripting.executeScript({
