@@ -4,8 +4,6 @@ Google Chrome Extension that automatically closes window tabs when you leave a m
 
 ## Installation
 
-https://chrome.google.com/webstore/detail/auto-google-meet-window-c/kfgnaohnggobmhachpjjolcobjmofdkf/related?hl=ja
-
 ## Prototype Demo
 
 1. Execute the following commands.
