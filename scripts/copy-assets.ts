@@ -4,7 +4,6 @@ import path from 'path'
 const srcDir = '.'
 const destDir = './dist'
 
-// 指定された拡張子とファイル名のファイルをコピーする関数
 function copyFilesWithExtensions(
   extensions: string[],
   filenames?: string[]
@@ -27,6 +26,5 @@ function copyFilesWithExtensions(
   }
 }
 
-// 複数の拡張子を対象にコピー
 copyFilesWithExtensions(['.png'])
 copyFilesWithExtensions(['.json'], ['manifest.json'])
